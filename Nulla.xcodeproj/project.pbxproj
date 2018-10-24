@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D49E2EF5CA3CD1DF365677D7 /* Pods_Nulla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FB6F1574153E58FE12C54D /* Pods_Nulla.framework */; };
+		F04B56752180D301003D7CBA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F04B56742180D301003D7CBA /* GoogleService-Info.plist */; };
 		F0836A3E217FDE7800B9CDC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0836A3D217FDE7800B9CDC8 /* AppDelegate.swift */; };
 		F0836A40217FDE7800B9CDC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0836A3F217FDE7800B9CDC8 /* ViewController.swift */; };
 		F0836A43217FDE7800B9CDC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0836A41217FDE7800B9CDC8 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		44DAB4CD6176B90DA7FF373B /* Pods-Nulla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nulla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nulla/Pods-Nulla.release.xcconfig"; sourceTree = "<group>"; };
 		7D016E982294254258859C06 /* Pods-Nulla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nulla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nulla/Pods-Nulla.debug.xcconfig"; sourceTree = "<group>"; };
 		B4FB6F1574153E58FE12C54D /* Pods_Nulla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nulla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04B56742180D301003D7CBA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0836A3A217FDE7800B9CDC8 /* Nulla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nulla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0836A3D217FDE7800B9CDC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0836A3F217FDE7800B9CDC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				F0836A44217FDE7800B9CDC8 /* Assets.xcassets */,
 				F0836A46217FDE7800B9CDC8 /* LaunchScreen.storyboard */,
 				F0836A49217FDE7800B9CDC8 /* Info.plist */,
+				F04B56742180D301003D7CBA /* GoogleService-Info.plist */,
 			);
 			path = Nulla;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0836A48217FDE7800B9CDC8 /* LaunchScreen.storyboard in Resources */,
+				F04B56752180D301003D7CBA /* GoogleService-Info.plist in Resources */,
 				F0836A45217FDE7800B9CDC8 /* Assets.xcassets in Resources */,
 				F0836A43217FDE7800B9CDC8 /* Main.storyboard in Resources */,
 			);
@@ -164,15 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Nulla/Pods-Nulla-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
 			);
@@ -186,15 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Nulla-checkManifestLockResult.txt",
 			);
@@ -208,8 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Nulla/Pods-Nulla-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
@@ -218,8 +212,6 @@
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",

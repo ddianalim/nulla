@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D49E2EF5CA3CD1DF365677D7 /* Pods_Nulla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FB6F1574153E58FE12C54D /* Pods_Nulla.framework */; };
 		F0836A3E217FDE7800B9CDC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0836A3D217FDE7800B9CDC8 /* AppDelegate.swift */; };
 		F0836A40217FDE7800B9CDC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0836A3F217FDE7800B9CDC8 /* ViewController.swift */; };
 		F0836A43217FDE7800B9CDC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0836A41217FDE7800B9CDC8 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44DAB4CD6176B90DA7FF373B /* Pods-Nulla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nulla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nulla/Pods-Nulla.release.xcconfig"; sourceTree = "<group>"; };
+		7D016E982294254258859C06 /* Pods-Nulla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nulla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nulla/Pods-Nulla.debug.xcconfig"; sourceTree = "<group>"; };
+		B4FB6F1574153E58FE12C54D /* Pods_Nulla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nulla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0836A3A217FDE7800B9CDC8 /* Nulla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nulla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0836A3D217FDE7800B9CDC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0836A3F217FDE7800B9CDC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49E2EF5CA3CD1DF365677D7 /* Pods_Nulla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E480535D56FE2230F614629 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB6F1574153E58FE12C54D /* Pods_Nulla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1602CB2AB003AC273A9088F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D016E982294254258859C06 /* Pods-Nulla.debug.xcconfig */,
+				44DAB4CD6176B90DA7FF373B /* Pods-Nulla.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F0836A31217FDE7800B9CDC8 = {
 			isa = PBXGroup;
 			children = (
 				F0836A3C217FDE7800B9CDC8 /* Nulla */,
 				F0836A3B217FDE7800B9CDC8 /* Products */,
+				A1602CB2AB003AC273A9088F /* Pods */,
+				8E480535D56FE2230F614629 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0836A4C217FDE7800B9CDC8 /* Build configuration list for PBXNativeTarget "Nulla" */;
 			buildPhases = (
+				6DFEBE99F1E72ECE26E726E4 /* [CP] Check Pods Manifest.lock */,
 				F0836A36217FDE7800B9CDC8 /* Sources */,
 				F0836A37217FDE7800B9CDC8 /* Frameworks */,
 				F0836A38217FDE7800B9CDC8 /* Resources */,
+				C166A111D4CBCC045BCA380D /* [CP] Embed Pods Frameworks */,
+				4A00FE5C269FC9A738B86E7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A00FE5C269FC9A738B86E7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nulla/Pods-Nulla-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nulla/Pods-Nulla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DFEBE99F1E72ECE26E726E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nulla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C166A111D4CBCC045BCA380D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nulla/Pods-Nulla-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nulla/Pods-Nulla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F0836A36217FDE7800B9CDC8 /* Sources */ = {
@@ -272,6 +374,7 @@
 		};
 		F0836A4D217FDE7800B9CDC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D016E982294254258859C06 /* Pods-Nulla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +389,7 @@
 		};
 		F0836A4E217FDE7800B9CDC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44DAB4CD6176B90DA7FF373B /* Pods-Nulla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -29,6 +29,8 @@ A user opens the app and logs in. Then they can get points by indicating that th
   - Point value (represents task difficulty)
   - Description
   - Category
+- User
+  - username
 
 ## Controllers
 - Main menu

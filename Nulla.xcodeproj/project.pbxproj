@@ -13,6 +13,7 @@
 		F0836A43217FDE7800B9CDC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0836A41217FDE7800B9CDC8 /* Main.storyboard */; };
 		F0836A45217FDE7800B9CDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0836A44217FDE7800B9CDC8 /* Assets.xcassets */; };
 		F0836A48217FDE7800B9CDC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0836A46217FDE7800B9CDC8 /* LaunchScreen.storyboard */; };
+		F09340A821837F7900B8F01C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09340A721837F7900B8F01C /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F0836A47217FDE7800B9CDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0836A49217FDE7800B9CDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F09340A52182D8C200B8F01C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F09340A721837F7900B8F01C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				F0836A41217FDE7800B9CDC8 /* Main.storyboard */,
+				F09340A721837F7900B8F01C /* Login.storyboard */,
 				F0836A46217FDE7800B9CDC8 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -216,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09340A821837F7900B8F01C /* Login.storyboard in Resources */,
 				F0836A48217FDE7800B9CDC8 /* LaunchScreen.storyboard in Resources */,
 				F0836A45217FDE7800B9CDC8 /* Assets.xcassets in Resources */,
 				F0836A43217FDE7800B9CDC8 /* Main.storyboard in Resources */,

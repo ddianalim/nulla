@@ -88,7 +88,7 @@
 				F093409D2182D77800B8F01C /* Helpers */,
 				F093409C2182D74B00B8F01C /* Extensions */,
 				F093409F2182D79A00B8F01C /* Storyboards */,
-				F09340A12182D7AC00B8F01C /* Supporting */,
+				F09340A12182D7AC00B8F01C /* Supporting Files */,
 				F0836A3F217FDE7800B9CDC8 /* ViewController.swift */,
 				F0836A41217FDE7800B9CDC8 /* Main.storyboard */,
 				F0836A44217FDE7800B9CDC8 /* Assets.xcassets */,
@@ -141,11 +141,11 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		F09340A12182D7AC00B8F01C /* Supporting */ = {
+		F09340A12182D7AC00B8F01C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Supporting;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		F09340A22182D7B300B8F01C /* Views */ = {

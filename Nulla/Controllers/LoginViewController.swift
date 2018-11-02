@@ -6,15 +6,22 @@
 //  Copyright © 2018 Diana Lim. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    // MARK: - Properties
+    
+    // MARK: - VC Lifecycle
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    // MARK: - IBActions
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

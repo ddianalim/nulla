@@ -15,6 +15,7 @@
 		F0836A48217FDE7800B9CDC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0836A46217FDE7800B9CDC8 /* LaunchScreen.storyboard */; };
 		F09340A821837F7900B8F01C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09340A721837F7900B8F01C /* Login.storyboard */; };
 		F09340AD2183807E00B8F01C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09340AC2183807E00B8F01C /* LoginViewController.swift */; };
+		F0FBADD6218C25FB00BBF934 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0FBADD4218C25D900BBF934 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +29,9 @@
 		F0836A44217FDE7800B9CDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0836A47217FDE7800B9CDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0836A49217FDE7800B9CDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F09340A52182D8C200B8F01C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F09340A721837F7900B8F01C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		F09340AC2183807E00B8F01C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F0FBADD4218C25D900BBF934 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +148,8 @@
 		F09340A12182D7AC00B8F01C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F0FBADD4218C25D900BBF934 /* GoogleService-Info.plist */,
 				F0836A49217FDE7800B9CDC8 /* Info.plist */,
-				F09340A52182D8C200B8F01C /* GoogleService-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -224,6 +225,7 @@
 			files = (
 				F09340A821837F7900B8F01C /* Login.storyboard in Resources */,
 				F0836A48217FDE7800B9CDC8 /* LaunchScreen.storyboard in Resources */,
+				F0FBADD6218C25FB00BBF934 /* GoogleService-Info.plist in Resources */,
 				F0836A45217FDE7800B9CDC8 /* Assets.xcassets in Resources */,
 				F0836A43217FDE7800B9CDC8 /* Main.storyboard in Resources */,
 			);
@@ -442,7 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Nulla/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dianalimnos.Nulla;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianalimnos.nulla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Nulla/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dianalimnos.Nulla;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianalimnos.nulla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

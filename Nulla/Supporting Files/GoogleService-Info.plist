@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>446609463407-lb0mjav403h9oesdp2hc3g9muvs3r8cq.apps.googleusercontent.com</string>
+	<string>446609463407-l3pu9vkvkdfadrm3a9lms5rk35qve4io.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.446609463407-lb0mjav403h9oesdp2hc3g9muvs3r8cq</string>
+	<string>com.googleusercontent.apps.446609463407-l3pu9vkvkdfadrm3a9lms5rk35qve4io</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBIxBMPtHX9CTt00hzyNh1Jw9M09Sbg42s</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.dianalimnos.Nulla</string>
+	<string>com.dianalimnos.nulla</string>
 	<key>PROJECT_ID</key>
 	<string>nulla-app</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:446609463407:ios:a7eb5857bfe545a2</string>
+	<string>1:446609463407:ios:a22e6bc9c7f3bb5e</string>
 	<key>DATABASE_URL</key>
 	<string>https://nulla-app.firebaseio.com</string>
 </dict>

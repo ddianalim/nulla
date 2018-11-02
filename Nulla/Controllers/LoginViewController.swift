@@ -12,6 +12,8 @@ class LoginViewController: UIViewController {
     
     // MARK: - Properties
     
+    @IBOutlet weak var loginButton: UIButton!
+    
     // MARK: - VC Lifecycle
 
     

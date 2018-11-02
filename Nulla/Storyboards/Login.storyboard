@@ -77,6 +77,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hnV-dj-cIW"/>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="A7Z-3m-OhT" id="HRI-h6-ect"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2l-di-GPH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

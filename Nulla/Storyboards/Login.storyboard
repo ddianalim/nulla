@@ -54,10 +54,12 @@
                                     <constraint firstItem="5c1-46-RAH" firstAttribute="centerX" secondItem="4vZ-zo-s7O" secondAttribute="centerX" id="w7Q-F4-HCR"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7Z-3m-OhT">
-                                <rect key="frame" x="104" y="310" width="166" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7Z-3m-OhT">
+                                <rect key="frame" x="35" y="290" width="305" height="45"/>
                                 <color key="backgroundColor" red="0.63529411759999999" green="0.76862745099999996" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="7tx-5o-FTg"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="Register or Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -66,7 +68,10 @@
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="4vZ-zo-s7O" secondAttribute="trailing" id="5sM-tH-0af"/>
+                            <constraint firstItem="hnV-dj-cIW" firstAttribute="trailing" secondItem="A7Z-3m-OhT" secondAttribute="trailing" constant="35" id="EJc-Z0-x99"/>
+                            <constraint firstItem="A7Z-3m-OhT" firstAttribute="top" secondItem="4vZ-zo-s7O" secondAttribute="bottom" constant="25" id="Ne8-dw-2UW"/>
                             <constraint firstItem="4vZ-zo-s7O" firstAttribute="leading" secondItem="xPL-Ik-bNh" secondAttribute="leading" id="XZ1-sJ-FfS"/>
+                            <constraint firstItem="A7Z-3m-OhT" firstAttribute="leading" secondItem="hnV-dj-cIW" secondAttribute="leading" constant="35" id="vBh-Ig-qhw"/>
                             <constraint firstItem="4vZ-zo-s7O" firstAttribute="top" secondItem="xPL-Ik-bNh" secondAttribute="top" id="w73-0S-XBk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hnV-dj-cIW"/>

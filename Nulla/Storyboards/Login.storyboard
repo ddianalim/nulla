@@ -18,12 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4vZ-zo-s7O">
-                                <rect key="frame" x="67" y="68" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4vZ-zo-s7O">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="265"/>
                                 <color key="backgroundColor" red="0.63529411759999999" green="0.76862745099999996" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="265" id="JA3-nc-qoj"/>
+                                </constraints>
                             </view>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4vZ-zo-s7O" secondAttribute="trailing" id="5sM-tH-0af"/>
+                            <constraint firstItem="4vZ-zo-s7O" firstAttribute="leading" secondItem="xPL-Ik-bNh" secondAttribute="leading" id="XZ1-sJ-FfS"/>
+                            <constraint firstItem="4vZ-zo-s7O" firstAttribute="top" secondItem="xPL-Ik-bNh" secondAttribute="top" id="w73-0S-XBk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hnV-dj-cIW"/>
                     </view>
                 </viewController>

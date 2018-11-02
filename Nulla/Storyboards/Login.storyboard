@@ -54,6 +54,11 @@
                                     <constraint firstItem="5c1-46-RAH" firstAttribute="centerX" secondItem="4vZ-zo-s7O" secondAttribute="centerX" id="w7Q-F4-HCR"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7Z-3m-OhT">
+                                <rect key="frame" x="117" y="318" width="141" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Register or Login"/>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="4vZ-zo-s7O" secondAttribute="trailing" id="5sM-tH-0af"/>

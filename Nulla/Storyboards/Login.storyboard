@@ -17,6 +17,13 @@
                     <view key="view" contentMode="scaleToFill" id="xPL-Ik-bNh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4vZ-zo-s7O">
+                                <rect key="frame" x="67" y="68" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63529411759999999" green="0.76862745099999996" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hnV-dj-cIW"/>
                     </view>
                 </viewController>

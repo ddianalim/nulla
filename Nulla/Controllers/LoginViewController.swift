@@ -16,14 +16,15 @@ class LoginViewController: UIViewController {
     
     // MARK: - VC Lifecycle
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     // MARK: - IBActions
 
+    @IBAction func loginButtonTapped(_ sender: UIButton) {
+        print("login button tapped!")
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

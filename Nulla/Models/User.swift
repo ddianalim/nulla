@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class User {
+    
+    // MARK: - Properties
+    
+    let uid: String
+    let username: String
+    
+    // MARK: - Init
+    
+    init(uid: String, username: String) {
+        self.uid = uid
+        self.username = username
+    }
+}

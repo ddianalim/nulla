@@ -10,6 +10,8 @@ import UIKit
 import FirebaseAuth
 import FirebaseUI
 
+typealias FIRUser = FirebaseAuth.User
+
 class LoginViewController: UIViewController {
     
     // MARK: - Properties

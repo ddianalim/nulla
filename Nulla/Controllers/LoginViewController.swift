@@ -25,7 +25,18 @@ class LoginViewController: UIViewController {
     // MARK: - IBActions
 
     @IBAction func loginButtonTapped(_ sender: UIButton) {
-        print("login button tapped!")
+        guard let authUI = FUIAuth.defaultAuthUI()
+            else { return }
+
+        authUI.delegate = self
+
+        let authViewController = authUI.authViewController()
+        present(authViewController, animated: true)
     }
 }
 
+extension LoginViewController: FUIAuthDelegate {
+    func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
+        print("handle user signup / login")
+    }
+}

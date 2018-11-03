@@ -9,6 +9,7 @@
 import UIKit
 import FirebaseAuth
 import FirebaseUI
+import FirebaseDatabase
 
 typealias FIRUser = FirebaseAuth.User
 
@@ -44,6 +45,12 @@ extension LoginViewController: FUIAuthDelegate {
             return
         }
         
-        print("handle user signup / login")
+        guard let user = authDataResult?.user
+            else { return }
+        
+        let userRef = Database.database().reference().child("users").child(user.uid)
+        
+        userRef.observeSingleEvent(of: .value, with: { (snapshot) in
+        })
     }
 }

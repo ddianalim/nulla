@@ -42,7 +42,6 @@ class LoginViewController: UIViewController {
 extension LoginViewController: FUIAuthDelegate {
 
     func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
-            print("entered function fuiauth!")
         if let error = error {
             assertionFailure("Error signing in: \(error.localizedDescription)")
             return
@@ -52,8 +51,6 @@ extension LoginViewController: FUIAuthDelegate {
             else { return }
         
         let userRef = Database.database().reference().child("users").child(user.uid)
-        print(userRef)
-//        print("let user statement!")
 
         userRef.observeSingleEvent(of: .value, with: { (snapshot) in
             if let user = User(snapshot: snapshot) {

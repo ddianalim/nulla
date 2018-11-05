@@ -6,4 +6,8 @@
 //  Copyright © 2018 Diana Lim. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class CreateUsernameViewController: UIViewController {
+    // ...
+}

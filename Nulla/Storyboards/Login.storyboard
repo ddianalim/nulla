@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="96.799999999999997" y="60.719640179910051"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Username View Controller-->
         <scene sceneID="odB-Yf-Zl4">
             <objects>
-                <viewController id="yIm-g6-Ier" sceneMemberID="viewController">
+                <viewController id="yIm-g6-Ier" customClass="CreateUsernameViewController" customModule="Nulla" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aCn-hg-ehf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

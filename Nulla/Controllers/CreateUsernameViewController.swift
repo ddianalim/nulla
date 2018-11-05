@@ -9,5 +9,13 @@
 import UIKit
 
 class CreateUsernameViewController: UIViewController {
-    // ...
+    // MARK: - Subviews
+    
+    // MARK: - VC Lifecycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    // MARK: - IBActions
 }

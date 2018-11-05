@@ -97,20 +97,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="eIE-gt-IST">
-                                <rect key="frame" x="0.0" y="45" width="375" height="193.5"/>
+                                <rect key="frame" x="35" y="45" width="305" height="193.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3V-XI-uUi">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="29"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="305" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a username so your friends can find you. You can change this later. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Koo-mZ-Nff">
-                                        <rect key="frame" x="0.0" y="47" width="375" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="47" width="305" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WOI-fu-PAZ">
-                                        <rect key="frame" x="0.0" y="85.5" width="375" height="45"/>
+                                        <rect key="frame" x="0.0" y="85.5" width="305" height="45"/>
                                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="Cdo-gp-kkk"/>
@@ -120,7 +120,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWL-MU-pvy">
-                                        <rect key="frame" x="0.0" y="148.5" width="375" height="45"/>
+                                        <rect key="frame" x="0.0" y="148.5" width="305" height="45"/>
                                         <color key="backgroundColor" red="0.63529411759999999" green="0.76862745099999996" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="BMC-8j-43D"/>
@@ -141,9 +141,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="eIE-gt-IST" firstAttribute="leading" secondItem="8cL-Fy-Ltz" secondAttribute="leading" id="0fh-8N-aWz"/>
+                            <constraint firstItem="eIE-gt-IST" firstAttribute="leading" secondItem="8cL-Fy-Ltz" secondAttribute="leading" constant="35" id="0fh-8N-aWz"/>
                             <constraint firstItem="eIE-gt-IST" firstAttribute="top" secondItem="8cL-Fy-Ltz" secondAttribute="top" constant="45" id="9Ek-g2-nid"/>
-                            <constraint firstAttribute="trailing" secondItem="eIE-gt-IST" secondAttribute="trailing" id="QuV-Qr-9jA"/>
+                            <constraint firstAttribute="trailing" secondItem="eIE-gt-IST" secondAttribute="trailing" constant="35" id="QuV-Qr-9jA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cAI-mO-dkY"/>
                     </view>

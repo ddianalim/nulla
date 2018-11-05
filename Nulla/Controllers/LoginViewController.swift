@@ -59,5 +59,15 @@ extension LoginViewController: FUIAuthDelegate {
                 print("New user!")
             }
         })
+        
+        userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in
+            if let user = User(snapshot: snapshot) {
+                print("Welcome back, \(user.username).")
+            } else {
+                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
+            }
+        })
     }
 }
+
+

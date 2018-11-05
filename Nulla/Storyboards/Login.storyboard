@@ -89,41 +89,41 @@
             <point key="canvasLocation" x="96.799999999999997" y="60.719640179910051"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="TJ4-4K-his">
+        <scene sceneID="odB-Yf-Zl4">
             <objects>
-                <viewController id="HGf-rX-ai4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8cL-Fy-Ltz">
+                <viewController id="yIm-g6-Ier" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aCn-hg-ehf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="eIE-gt-IST">
-                                <rect key="frame" x="35" y="45" width="305" height="188"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="1bO-Nm-Ped">
+                                <rect key="frame" x="0.0" y="65" width="0.0" height="171"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3V-XI-uUi">
-                                        <rect key="frame" x="0.0" y="0.0" width="305" height="29"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlb-sS-Jf4">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a username so your friends can find you." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Koo-mZ-Nff">
-                                        <rect key="frame" x="0.0" y="47" width="305" height="17"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a username so your friends can find you." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9g-93-zVq">
+                                        <rect key="frame" x="0.0" y="47" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WOI-fu-PAZ">
-                                        <rect key="frame" x="0.0" y="82" width="305" height="44"/>
-                                        <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G4C-Io-RBB">
+                                        <rect key="frame" x="0.0" y="65" width="0.0" height="44"/>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="Cdo-gp-kkk"/>
+                                            <constraint firstAttribute="height" constant="44" id="x8S-mx-hQV"/>
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWL-MU-pvy">
-                                        <rect key="frame" x="0.0" y="144" width="305" height="44"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDJ-Uh-LBU">
+                                        <rect key="frame" x="0.0" y="127" width="0.0" height="44"/>
                                         <color key="backgroundColor" red="0.63529411759999999" green="0.76862745099999996" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="BMC-8j-43D"/>
+                                            <constraint firstAttribute="height" constant="44" id="0MO-gq-sQR"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                         <state key="normal" title="Next">
@@ -132,25 +132,25 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="WOI-fu-PAZ" secondAttribute="trailing" id="4fZ-V5-AFx"/>
-                                    <constraint firstItem="jWL-MU-pvy" firstAttribute="leading" secondItem="eIE-gt-IST" secondAttribute="leading" id="APo-h4-de2"/>
-                                    <constraint firstItem="WOI-fu-PAZ" firstAttribute="leading" secondItem="eIE-gt-IST" secondAttribute="leading" id="B0S-QB-yX0"/>
-                                    <constraint firstAttribute="trailing" secondItem="jWL-MU-pvy" secondAttribute="trailing" id="SQt-fB-ifF"/>
+                                    <constraint firstAttribute="trailing" secondItem="G4C-Io-RBB" secondAttribute="trailing" id="Okc-L4-t4c"/>
+                                    <constraint firstItem="G4C-Io-RBB" firstAttribute="leading" secondItem="1bO-Nm-Ped" secondAttribute="leading" id="f4t-Mc-bmc"/>
+                                    <constraint firstItem="rDJ-Uh-LBU" firstAttribute="leading" secondItem="1bO-Nm-Ped" secondAttribute="leading" id="irx-Ne-yjC"/>
+                                    <constraint firstAttribute="trailing" secondItem="rDJ-Uh-LBU" secondAttribute="trailing" id="rks-oc-j8x"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="eIE-gt-IST" firstAttribute="leading" secondItem="8cL-Fy-Ltz" secondAttribute="leading" constant="35" id="0fh-8N-aWz"/>
-                            <constraint firstItem="eIE-gt-IST" firstAttribute="top" secondItem="8cL-Fy-Ltz" secondAttribute="top" constant="45" id="9Ek-g2-nid"/>
-                            <constraint firstAttribute="trailing" secondItem="eIE-gt-IST" secondAttribute="trailing" constant="35" id="QuV-Qr-9jA"/>
+                            <constraint firstItem="1bO-Nm-Ped" firstAttribute="leading" secondItem="aCn-hg-ehf" secondAttribute="leading" constant="35" id="cQ5-2u-WTO"/>
+                            <constraint firstAttribute="trailing" secondItem="1bO-Nm-Ped" secondAttribute="trailing" constant="35" id="j1W-yu-2zX"/>
+                            <constraint firstItem="1bO-Nm-Ped" firstAttribute="top" secondItem="Cha-hk-Udm" secondAttribute="top" constant="45" id="zSS-rO-Wfh"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="cAI-mO-dkY"/>
+                        <viewLayoutGuide key="safeArea" id="Cha-hk-Udm"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3tY-o2-gPb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5o-uR-Xwu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="853.60000000000002" y="60.719640179910051"/>
+            <point key="canvasLocation" x="796" y="61"/>
         </scene>
     </scenes>
 </document>

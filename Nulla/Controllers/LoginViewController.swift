@@ -52,12 +52,12 @@ extension LoginViewController: FUIAuthDelegate {
             else { return }
         
         let userRef = Database.database().reference().child("users").child(user.uid)
+        print(userRef)
 //        print("let user statement!")
 
         userRef.observeSingleEvent(of: .value, with: { (snapshot) in
-            print("within snapshot thing")
-            if let userDict = snapshot.value as? [String : Any] {
-                print("User already exists \(userDict.debugDescription).")
+            if let user = User(snapshot: snapshot) {
+                print("Welcome back, \(user.username).")
             } else {
                 print("New user!")
             }

@@ -83,6 +83,7 @@
                     <navigationItem key="navigationItem" id="xPA-V6-wfG"/>
                     <connections>
                         <outlet property="loginButton" destination="A7Z-3m-OhT" id="HRI-h6-ect"/>
+                        <segue destination="yIm-g6-Ier" kind="show" identifier="toCreateUsername" id="1c7-lM-Cso"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2l-di-GPH" userLabel="First Responder" sceneMemberID="firstResponder"/>

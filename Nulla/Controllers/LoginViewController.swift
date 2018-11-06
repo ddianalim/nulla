@@ -52,7 +52,6 @@ extension LoginViewController: FUIAuthDelegate {
         
         UserService.show(forUID: user.uid) { (user) in
             if let user = user {
-                // handle existing user
                 User.setCurrent(user)
                 
                 let storyboard = UIStoryboard(name: "Main", bundle: .main)
@@ -61,8 +60,8 @@ extension LoginViewController: FUIAuthDelegate {
                     self.view.window?.makeKeyAndVisible()
                 }
             } else {
-                // handle new user
-                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
+                self.performSegue(withIdentifier: Constants.Segue.toCreateUsername, sender: self)
+//                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
         }
     }

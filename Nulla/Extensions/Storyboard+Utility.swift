@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIStoryboard {
-    enum MGType: String {
+    enum NType: String {
         case main
         case login
         

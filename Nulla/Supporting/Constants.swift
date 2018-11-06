@@ -9,5 +9,7 @@
 import Foundation
 
 struct Constants {
-    // ...
+    struct Segue {
+        static let toCreateUsername = "toCreateUsername"
+    }
 }

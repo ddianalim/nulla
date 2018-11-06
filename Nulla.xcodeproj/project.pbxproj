@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D49E2EF5CA3CD1DF365677D7 /* Pods_Nulla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FB6F1574153E58FE12C54D /* Pods_Nulla.framework */; };
+		F0009863219149F2007A6135 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0009862219149F1007A6135 /* GoogleService-Info.plist */; };
 		F0836A3E217FDE7800B9CDC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0836A3D217FDE7800B9CDC8 /* AppDelegate.swift */; };
 		F0836A40217FDE7800B9CDC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0836A3F217FDE7800B9CDC8 /* ViewController.swift */; };
 		F0836A43217FDE7800B9CDC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0836A41217FDE7800B9CDC8 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		F0836A48217FDE7800B9CDC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0836A46217FDE7800B9CDC8 /* LaunchScreen.storyboard */; };
 		F09340A821837F7900B8F01C /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09340A721837F7900B8F01C /* Login.storyboard */; };
 		F09340AD2183807E00B8F01C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09340AC2183807E00B8F01C /* LoginViewController.swift */; };
-		F0FBADD6218C25FB00BBF934 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0FBADD4218C25D900BBF934 /* GoogleService-Info.plist */; };
 		F0FBADD8218D765300BBF934 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FBADD7218D765300BBF934 /* User.swift */; };
 		F0FBADDA2190179700BBF934 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FBADD92190179700BBF934 /* CreateUsernameViewController.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +24,7 @@
 		44DAB4CD6176B90DA7FF373B /* Pods-Nulla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nulla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nulla/Pods-Nulla.release.xcconfig"; sourceTree = "<group>"; };
 		7D016E982294254258859C06 /* Pods-Nulla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nulla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nulla/Pods-Nulla.debug.xcconfig"; sourceTree = "<group>"; };
 		B4FB6F1574153E58FE12C54D /* Pods_Nulla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nulla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0009862219149F1007A6135 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0836A3A217FDE7800B9CDC8 /* Nulla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nulla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0836A3D217FDE7800B9CDC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0836A3F217FDE7800B9CDC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +34,6 @@
 		F0836A49217FDE7800B9CDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F09340A721837F7900B8F01C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		F09340AC2183807E00B8F01C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		F0FBADD4218C25D900BBF934 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F0FBADD7218D765300BBF934 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F0FBADD92190179700BBF934 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,7 +154,7 @@
 		F09340A12182D7AC00B8F01C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0FBADD4218C25D900BBF934 /* GoogleService-Info.plist */,
+				F0009862219149F1007A6135 /* GoogleService-Info.plist */,
 				F0836A49217FDE7800B9CDC8 /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -231,7 +231,7 @@
 			files = (
 				F09340A821837F7900B8F01C /* Login.storyboard in Resources */,
 				F0836A48217FDE7800B9CDC8 /* LaunchScreen.storyboard in Resources */,
-				F0FBADD6218C25FB00BBF934 /* GoogleService-Info.plist in Resources */,
+				F0009863219149F2007A6135 /* GoogleService-Info.plist in Resources */,
 				F0836A45217FDE7800B9CDC8 /* Assets.xcassets in Resources */,
 				F0836A43217FDE7800B9CDC8 /* Main.storyboard in Resources */,
 			);

@@ -50,10 +50,9 @@ extension LoginViewController: FUIAuthDelegate {
         guard let user = authDataResult?.user
             else { return }
         
-        let userRef = Database.database().reference().child("users").child(user.uid)
-
-        userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in
-            if let user = User(snapshot: snapshot) {
+        UserService.show(forUID: user.uid) { (user) in
+            if let user = user {
+                // handle existing user
                 User.setCurrent(user)
                 
                 let storyboard = UIStoryboard(name: "Main", bundle: .main)
@@ -62,10 +61,10 @@ extension LoginViewController: FUIAuthDelegate {
                     self.view.window?.makeKeyAndVisible()
                 }
             } else {
-                print("New user!")
+                // handle new user
                 self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
-        })
+        }
     }
 }
 

@@ -9,12 +9,16 @@
 import UIKit
 
 extension UIStoryboard {
-    enum NType: String {
+    enum NullaType: String {
         case main
         case login
         
         var filename: String {
             return rawValue.capitalized
         }
+    }
+    
+    convenience init(type: NullaType, bundle: Bundle? = nil) {
+        self.init(name: type.filename, bundle: bundle)
     }
 }

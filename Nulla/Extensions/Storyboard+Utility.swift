@@ -21,4 +21,13 @@ extension UIStoryboard {
     convenience init(type: NullaType, bundle: Bundle? = nil) {
         self.init(name: type.filename, bundle: bundle)
     }
+    
+    static func initialViewController(for type: NullaType) -> UIViewController {
+        let storyboard = UIStoryboard(type: type)
+        guard let initialViewController = storyboard.instantiateInitialViewController() else {
+            fatalError("Couldn't instantiate initial view controller for \(type.filename) storyboard.")
+        }
+        
+        return initialViewController
+    }
 }

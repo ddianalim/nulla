@@ -54,14 +54,11 @@ extension LoginViewController: FUIAuthDelegate {
             if let user = user {
                 User.setCurrent(user)
                 
-                let storyboard = UIStoryboard(name: "Main", bundle: .main)
-                if let initialViewController = storyboard.instantiateInitialViewController() {
-                    self.view.window?.rootViewController = initialViewController
-                    self.view.window?.makeKeyAndVisible()
-                }
+                let initialViewController = UIStoryboard.initialViewController(for: .main)
+                self.view.window?.rootViewController = initialViewController
+                self.view.window?.makeKeyAndVisible()
             } else {
                 self.performSegue(withIdentifier: Constants.Segue.toCreateUsername, sender: self)
-//                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
         }
     }

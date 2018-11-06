@@ -67,6 +67,19 @@ extension LoginViewController: FUIAuthDelegate {
                 self.performSegue(withIdentifier: "toCreateUsername", sender: self)
             }
         })
+        
+        userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in
+            if let _ = User(snapshot: snapshot) {
+                let storyboard = UIStoryboard(name: "Main", bundle: .main)
+                
+                if let initialViewController = storyboard.instantiateInitialViewController() {
+                    self.view.window?.rootViewController = initialViewController
+                    self.view.window?.makeKeyAndVisible()
+                }
+            } else {
+                self.performSegue(withIdentifier: "toCreateUsername", sender: self)
+            }
+        })
     }
 }
 

@@ -42,7 +42,6 @@ class LoginViewController: UIViewController {
 extension LoginViewController: FUIAuthDelegate {
 
     func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
-        print("entered authUI FUIAuth function")
         if let error = error {
             assertionFailure("Error signing in: \(error.localizedDescription)")
             return
@@ -52,19 +51,13 @@ extension LoginViewController: FUIAuthDelegate {
             else { return }
         
         let userRef = Database.database().reference().child("users").child(user.uid)
-        print("User: \(userRef)")
         
         userRef.observeSingleEvent(of: .value, with: { (snapshot) in
             if let user = User(snapshot: snapshot) {
-                print("Welcome back, \(user.username).")
+                print("1 Welcome back, \(user.username).")
             } else {
                 print("New user!")
             }
-            /*    if let userDict = snapshot.value as? [String : Any] {
-            print("User already exists \(userDict.debugDescription).")
-        } else {
-            print("New user!")
-            }*/
         })
         
         userRef.observeSingleEvent(of: .value, with: { [unowned self] (snapshot) in

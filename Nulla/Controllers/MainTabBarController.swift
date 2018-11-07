@@ -21,6 +21,13 @@ class MainTabBarController: UITabBarController {
 
 extension MainTabBarController: UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-        return true
+        if viewController.tabBarItem.tag == 1 {
+            // present add points action sheet
+            print("add points")
+            
+            return false
+        } else {
+            return true
+        }
     }
 }

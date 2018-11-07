@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--View Controller-->
         <scene sceneID="Y1U-b3-Knr">
             <objects>
                 <viewController id="it5-Su-Ije" sceneMemberID="viewController">
@@ -20,13 +20,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZPN-0m-9QJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="rvy-nt-6Nk"/>
+                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="rvy-nt-6Nk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfe-xs-g2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2193" y="-72"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="WE6-AW-i2F">
             <objects>
                 <viewController id="qb1-HI-Pa4" sceneMemberID="viewController">
@@ -36,13 +36,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="e1h-nn-zBO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="mjM-3s-laT"/>
+                    <tabBarItem key="tabBarItem" title="" image="tab_find_friends_black" id="mjM-3s-laT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d4W-R3-zoW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2194" y="618"/>
         </scene>
-        <!--Item 1-->
+        <!--View Controller-->
         <scene sceneID="MtB-yU-1pu">
             <objects>
                 <viewController id="HZv-Yl-o78" sceneMemberID="viewController">
@@ -52,7 +52,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ucw-Vw-6dP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="acU-aV-QzD"/>
+                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="acU-aV-QzD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sw5-nl-Y3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,4 +78,9 @@
             <point key="canvasLocation" x="-3137" y="-407"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_find_friends_black" width="25" height="25"/>
+        <image name="tab_home_black" width="25" height="25"/>
+        <image name="tab_plus_black" width="25" height="25"/>
+    </resources>
 </document>

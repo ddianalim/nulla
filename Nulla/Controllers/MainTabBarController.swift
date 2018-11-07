@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class MainTabBarController: UITabBarController {
     
@@ -15,5 +16,11 @@ class MainTabBarController: UITabBarController {
         
         delegate = self
         tabBar.unselectedItemTintColor = .black
+    }
+}
+
+extension MainTabBarController: UITabBarControllerDelegate {
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        return true
     }
 }

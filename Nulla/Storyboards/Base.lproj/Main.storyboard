@@ -20,7 +20,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZPN-0m-9QJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="rvy-nt-6Nk">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tab_plus_black" id="rvy-nt-6Nk">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -38,7 +38,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="e1h-nn-zBO"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_find_friends_black" id="mjM-3s-laT">
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="tab_find_friends_black" id="mjM-3s-laT">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>

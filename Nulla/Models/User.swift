@@ -9,8 +9,8 @@
 import Foundation
 import FirebaseDatabase.FIRDataSnapshot
 
-class User {
-    
+class User: Codable {
+
     // MARK: - Properties
     
     let uid: String

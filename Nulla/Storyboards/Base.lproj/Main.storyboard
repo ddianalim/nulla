@@ -20,16 +20,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ZPN-0m-9QJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="rvy-nt-6Nk"/>
+                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="rvy-nt-6Nk">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfe-xs-g2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2193" y="-72"/>
         </scene>
-        <!--View Controller-->
+        <!--Item 3-->
         <scene sceneID="WE6-AW-i2F">
             <objects>
-                <viewController id="qb1-HI-Pa4" sceneMemberID="viewController">
+                <viewController id="qb1-HI-Pa4" userLabel="Item 3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kId-OG-DbX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

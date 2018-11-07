@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class MainTabBarController: UITabBarController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        delegate = self
+        tabBar.unselectedItemTintColor = .black
+    }
+}

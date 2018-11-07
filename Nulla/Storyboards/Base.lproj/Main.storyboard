@@ -31,7 +31,7 @@
         <!--Item 3-->
         <scene sceneID="WE6-AW-i2F">
             <objects>
-                <viewController id="qb1-HI-Pa4" userLabel="Item 3" sceneMemberID="viewController">
+                <viewController id="qb1-HI-Pa4" userLabel="Item 3" customClass="FindFriendsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kId-OG-DbX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="-2194" y="618"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="MtB-yU-1pu">
             <objects>
-                <viewController id="HZv-Yl-o78" sceneMemberID="viewController">
+                <viewController id="HZv-Yl-o78" customClass="HomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lPr-iB-muX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

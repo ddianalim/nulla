@@ -18,6 +18,10 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        photoHelper.completionHandler = { image in
+            print("handle image")
+        }
+        
         delegate = self
         tabBar.unselectedItemTintColor = .black
     }

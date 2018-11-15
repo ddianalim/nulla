@@ -9,5 +9,14 @@
 import UIKit
 
 class NullaPhotoHelper: NSObject {
-
+    
+    // MARK: - Properties
+    
+    var completionHandler: ((UIImage) -> Void)?
+    
+    // MARK: - Helper Methods
+    
+    func presentActionSheet(from viewController: UIViewController) {
+        
+    }
 }

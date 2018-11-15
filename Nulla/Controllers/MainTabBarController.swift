@@ -30,12 +30,10 @@ class MainTabBarController: UITabBarController {
 extension MainTabBarController: UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         if viewController.tabBarItem.tag == 1 {
-            // present add points action sheet
-            print("add points")
-            
+            photoHelper.presentActionSheet(from: self)
             return false
-        } else {
-            return true
         }
+        
+        return true
     }
 }

@@ -11,6 +11,10 @@ import UIKit
 
 class MainTabBarController: UITabBarController {
     
+    // MARK: - Properties
+    
+    let photoHelper = NullaPhotoHelper()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

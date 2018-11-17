@@ -24,6 +24,7 @@
 		F0DE37C8219D48EC00629CCD /* NullaPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE37C7219D48EC00629CCD /* NullaPhotoHelper.swift */; };
 		F0DE37CA21A0825C00629CCD /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE37C921A0825C00629CCD /* StorageService.swift */; };
 		F0DE37CC21A082D700629CCD /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE37CB21A082D700629CCD /* PostService.swift */; };
+		F0DE37CE21A083D800629CCD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE37CD21A083D800629CCD /* Post.swift */; };
 		F0FBADD8218D765300BBF934 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FBADD7218D765300BBF934 /* User.swift */; };
 		F0FBADDA2190179700BBF934 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FBADD92190179700BBF934 /* CreateUsernameViewController.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		F0DE37C7219D48EC00629CCD /* NullaPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullaPhotoHelper.swift; sourceTree = "<group>"; };
 		F0DE37C921A0825C00629CCD /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		F0DE37CB21A082D700629CCD /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		F0DE37CD21A083D800629CCD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		F0FBADD7218D765300BBF934 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F0FBADD92190179700BBF934 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				F0FBADD7218D765300BBF934 /* User.swift */,
+				F0DE37CD21A083D800629CCD /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				F09340AD2183807E00B8F01C /* LoginViewController.swift in Sources */,
 				F0AF444021936A28001D7596 /* MainTabBarController.swift in Sources */,
 				F00098652191652B007A6135 /* UserService.swift in Sources */,
+				F0DE37CE21A083D800629CCD /* Post.swift in Sources */,
 				F0AF443A2192C6E9001D7596 /* HomeViewController.swift in Sources */,
 				F0AF443821916F3B001D7596 /* Storyboard+Utility.swift in Sources */,
 				F0DE37C8219D48EC00629CCD /* NullaPhotoHelper.swift in Sources */,

@@ -18,13 +18,13 @@ class NullaPhotoHelper: NSObject {
     
     func presentActionSheet(from viewController: UIViewController) {
         let alertController = UIAlertController(title: nil, message: "Where do you want to get your picture from?", preferredStyle: .actionSheet)
-        
-        if UIImagePickerController.isSourceTypeAvailable(.camera) {
-            let capturePhotoAction = UIAlertAction(title: "Take Photo", style: .default, handler: { action in
-                // do nothing yet...
-            })
-            alertController.addAction(capturePhotoAction)
-        }
+//
+//        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+//            let capturePhotoAction = UIAlertAction(title: "Take Photo", style: .default, handler: { action in
+//                // do nothing yet...
+//            })
+//            alertController.addAction(capturePhotoAction)
+//        }
         
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
             let capturePhotoAction = UIAlertAction(title: "Take Photo", style: .default, handler: { [unowned self] action in

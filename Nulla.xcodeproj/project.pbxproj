@@ -22,6 +22,7 @@
 		F0AF443C2192C710001D7596 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF443B2192C710001D7596 /* FindFriendsViewController.swift */; };
 		F0AF444021936A28001D7596 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF443F21936A28001D7596 /* MainTabBarController.swift */; };
 		F0DE37C8219D48EC00629CCD /* NullaPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE37C7219D48EC00629CCD /* NullaPhotoHelper.swift */; };
+		F0DE37CA21A0825C00629CCD /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE37C921A0825C00629CCD /* StorageService.swift */; };
 		F0FBADD8218D765300BBF934 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FBADD7218D765300BBF934 /* User.swift */; };
 		F0FBADDA2190179700BBF934 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FBADD92190179700BBF934 /* CreateUsernameViewController.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		F0AF443B2192C710001D7596 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		F0AF443F21936A28001D7596 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F0DE37C7219D48EC00629CCD /* NullaPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullaPhotoHelper.swift; sourceTree = "<group>"; };
+		F0DE37C921A0825C00629CCD /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		F0FBADD7218D765300BBF934 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F0FBADD92190179700BBF934 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				F00098642191652A007A6135 /* UserService.swift */,
+				F0DE37C921A0825C00629CCD /* StorageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0FBADD8218D765300BBF934 /* User.swift in Sources */,
+				F0DE37CA21A0825C00629CCD /* StorageService.swift in Sources */,
 				F09340AD2183807E00B8F01C /* LoginViewController.swift in Sources */,
 				F0AF444021936A28001D7596 /* MainTabBarController.swift in Sources */,
 				F00098652191652B007A6135 /* UserService.swift in Sources */,

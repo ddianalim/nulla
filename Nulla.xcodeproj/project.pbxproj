@@ -23,6 +23,7 @@
 		F0AF444021936A28001D7596 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AF443F21936A28001D7596 /* MainTabBarController.swift */; };
 		F0DE37C8219D48EC00629CCD /* NullaPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE37C7219D48EC00629CCD /* NullaPhotoHelper.swift */; };
 		F0DE37CA21A0825C00629CCD /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE37C921A0825C00629CCD /* StorageService.swift */; };
+		F0DE37CC21A082D700629CCD /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DE37CB21A082D700629CCD /* PostService.swift */; };
 		F0FBADD8218D765300BBF934 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FBADD7218D765300BBF934 /* User.swift */; };
 		F0FBADDA2190179700BBF934 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FBADD92190179700BBF934 /* CreateUsernameViewController.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		F0AF443F21936A28001D7596 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		F0DE37C7219D48EC00629CCD /* NullaPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullaPhotoHelper.swift; sourceTree = "<group>"; };
 		F0DE37C921A0825C00629CCD /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		F0DE37CB21A082D700629CCD /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		F0FBADD7218D765300BBF934 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F0FBADD92190179700BBF934 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,6 +169,7 @@
 			children = (
 				F00098642191652A007A6135 /* UserService.swift */,
 				F0DE37C921A0825C00629CCD /* StorageService.swift */,
+				F0DE37CB21A082D700629CCD /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				F0DE37C8219D48EC00629CCD /* NullaPhotoHelper.swift in Sources */,
 				F0AF443C2192C710001D7596 /* FindFriendsViewController.swift in Sources */,
 				F000986721916CCA007A6135 /* Constants.swift in Sources */,
+				F0DE37CC21A082D700629CCD /* PostService.swift in Sources */,
 				F0FBADDA2190179700BBF934 /* CreateUsernameViewController.swift in Sources */,
 				F0836A3E217FDE7800B9CDC8 /* AppDelegate.swift in Sources */,
 			);

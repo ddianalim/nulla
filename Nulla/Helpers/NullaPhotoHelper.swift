@@ -51,6 +51,7 @@ class NullaPhotoHelper: NSObject {
     func presentImagePickerController(with sourceType: UIImagePickerControllerSourceType, from viewController: UIViewController) {
         let imagePickerController = UIImagePickerController()
         imagePickerController.sourceType = sourceType
+        imagePickerController.delegate = self
         
         viewController.present(imagePickerController, animated: true)
     }

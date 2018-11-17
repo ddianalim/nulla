@@ -19,7 +19,7 @@ struct PostService {
             }
             
             let urlString = downloadURL.absoluteString
-            print("image url: \(urlString)")
+            create(forURLString: urlString, aspectHeight: 320)
         }
     }
     

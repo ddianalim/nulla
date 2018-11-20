@@ -43,6 +43,7 @@
 		F0836A44217FDE7800B9CDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0836A47217FDE7800B9CDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F09034A021A4A62000FC7CA9 /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		F09034A221A4A9C400FC7CA9 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Home.storyboard; path = /Users/dianalim/Desktop/Code/Nulla/Nulla/Storyboards/Home.storyboard; sourceTree = "<absolute>"; };
 		F09340A721837F7900B8F01C /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		F09340AC2183807E00B8F01C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F0AF443321916D37001D7596 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -166,6 +167,7 @@
 		F093409F2182D79A00B8F01C /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				F09034A221A4A9C400FC7CA9 /* Home.storyboard */,
 				F0836A41217FDE7800B9CDC8 /* Main.storyboard */,
 				F09340A721837F7900B8F01C /* Login.storyboard */,
 				F0836A46217FDE7800B9CDC8 /* LaunchScreen.storyboard */,

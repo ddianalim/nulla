@@ -12,7 +12,7 @@ import FirebaseDatabase
 
 struct PostService {
     static func create(for image: UIImage) {
-        let imageRef = Storage.storage().reference().child("test_image.jpg")
+        let imageRef = StorageReference.newPostImageReference()
         StorageService.uploadImage(image, at: imageRef) { (downloadURL) in
             guard let downloadURL = downloadURL else {
                 return

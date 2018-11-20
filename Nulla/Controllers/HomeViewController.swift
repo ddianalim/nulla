@@ -6,4 +6,16 @@
 //  Copyright © 2018 Diana Lim. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class HomeViewController: UIViewController {
+    
+    // MARK: - Subviews
+    
+    // MARK: - VC Lifestyle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}
+

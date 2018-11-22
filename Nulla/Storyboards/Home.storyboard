@@ -37,6 +37,9 @@
                         <viewLayoutGuide key="safeArea" id="ucw-Vw-6dP"/>
                     </view>
                     <navigationItem key="navigationItem" id="CYr-mj-oaA"/>
+                    <connections>
+                        <outlet property="tableView" destination="SLV-RT-tIz" id="P6U-58-ZDc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sw5-nl-Y3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

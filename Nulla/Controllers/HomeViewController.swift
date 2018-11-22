@@ -12,6 +12,8 @@ class HomeViewController: UIViewController {
     
     // MARK: - Subviews
     
+    @IBOutlet var tableView: UITableView!
+    
     // MARK: - VC Lifestyle
     
     override func viewDidLoad() {
